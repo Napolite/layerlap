@@ -5,6 +5,11 @@
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: Montserrat;
+  src: url("./assets/fonts/Montserrat-VariableFont_wght.ttf");
+}
+
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
