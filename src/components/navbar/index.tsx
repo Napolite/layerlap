@@ -1,7 +1,9 @@
+import "./navbar.css";
 import { layerLap } from "../../assets";
+
 function Navbar() {
   return (
-    <div>
+    <div className="navbar-root">
       <div>
         <img src={layerLap} />
       </div>

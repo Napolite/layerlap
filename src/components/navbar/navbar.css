@@ -1,0 +1,20 @@
+.navbar-root {
+  /* background-color: green; */
+  width: 100vw;
+  padding: 0px 50px 0px 50px;
+  display: flex;
+  justify-content: space-around;
+  place-items: center;
+}
+
+.navbar-root > div:nth-child(2) {
+  display: flex;
+  width: 450px;
+  justify-content: space-between;
+}
+
+.navbar-root > div > button {
+  background-color: #35a6bf;
+  width: 122px;
+  height: 40px;
+}
