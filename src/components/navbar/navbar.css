@@ -1,10 +1,12 @@
 .navbar-root {
-  /* background-color: green; */
+  background-color: green;
   width: 100vw;
-  padding: 0px 50px 0px 50px;
+  height: 90px;
+  padding: 0px 50px 0px 30px;
   display: flex;
   justify-content: space-around;
   place-items: center;
+  font-size: 14px;
 }
 
 .navbar-root > div:nth-child(2) {
@@ -17,4 +19,9 @@
   background-color: #35a6bf;
   width: 122px;
   height: 40px;
+}
+
+.navbar-root img {
+  width: 173px;
+  height: 37px;
 }
