@@ -51,7 +51,7 @@ function Services() {
       <div className="services">
         <div>
           <img src={webdev} />
-          <div>Web Development</div>
+          <div>APP and Web Development</div>
           <div>
             We provide end-to-end web and mobile app development according to
             our client’s needs and specifications. Our experience includes UI/UX
