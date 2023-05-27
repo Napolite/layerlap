@@ -1,0 +1,22 @@
+.services-root {
+  width: 100%;
+  background-color: green;
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+}
+
+.services-intro {
+  text-align: center;
+  width: 350px;
+}
+
+.services-intro > div:nth-child(1) {
+  font-weight: bolder;
+  font-size: 24px;
+}
+
+.services-intro > div:nth-child(2) {
+  font-weight: bolder;
+  font-size: 16px;
+}
