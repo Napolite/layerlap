@@ -1,0 +1,30 @@
+.landing-root {
+  background-color: #e7e5e5;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  font-family: Montserrat;
+}
+
+.landing-circle {
+  width: 400px;
+  height: 400px;
+  border: 1px solid black;
+  border-radius: 50%;
+  position: relative;
+  top: -35%;
+  left: -30%;
+  margin: 0;
+}
+
+.landing-statement {
+  position: relative;
+  top: -30%;
+}
+
+.landing-statement > div:nth-child(1) {
+  color: #35a6bf;
+  font-size: 44px;
+  font-weight: 700;
+  width: 401px;
+}

@@ -1,5 +1,5 @@
 .navbar-root {
-  width: 100vw;
+  width: 100%;
   height: 90px;
   padding: 0px 50px 0px 30px;
   display: flex;
@@ -7,6 +7,9 @@
   place-items: center;
   font-size: 14px;
   font-family: Montserrat;
+  background-color: white;
+  z-index: 999;
+  position: relative;
 }
 
 .navbar-root > div:nth-child(2) {
