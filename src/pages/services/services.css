@@ -1,22 +1,38 @@
 .services-root {
   width: 100%;
-  background-color: green;
-  display: flex;
-  flex-direction: column;
-  place-items: center;
+  font-family: Montserrat;
+  color: #0c1727;
 }
 
 .services-intro {
   text-align: center;
   width: 350px;
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+  margin: auto;
+  margin-bottom: 150px;
 }
 
 .services-intro > div:nth-child(1) {
   font-weight: bolder;
   font-size: 24px;
+  margin-bottom: 15px;
 }
 
 .services-intro > div:nth-child(2) {
-  font-weight: bolder;
-  font-size: 16px;
+  font-size: 14px;
+}
+
+.services {
+  display: flex;
+  place-items: center;
+  justify-content: space-around;
+  margin-bottom: 150px;
+}
+
+.services > div {
+  height: 200px;
+  width: 200px;
+  background-color: green;
 }

@@ -10,6 +10,20 @@ function Services() {
           for developers, startups, enterprises, and governments.
         </div>
       </div>
+      <div className="services">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+      <div className="services">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+      <div className="services">
+        <div></div>
+        <div></div>
+      </div>
     </div>
   );
 }
