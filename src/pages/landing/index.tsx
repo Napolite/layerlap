@@ -15,7 +15,7 @@ function Landing() {
         </div>
       </div>
       <div>
-        <img src={logo} />
+        <img src={logo} className="landing-logo" />
       </div>
     </div>
   );

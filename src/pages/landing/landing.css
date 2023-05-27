@@ -7,24 +7,36 @@
 }
 
 .landing-circle {
-  width: 400px;
-  height: 400px;
+  width: 450px;
+  height: 450px;
   border: 1px solid black;
   border-radius: 50%;
   position: relative;
-  top: -35%;
-  left: -30%;
+  top: -40%;
+  left: -35%;
   margin: 0;
 }
 
 .landing-statement {
   position: relative;
-  top: -30%;
+  top: -37%;
+  left: 18%;
 }
 
 .landing-statement > div:nth-child(1) {
   color: #35a6bf;
-  font-size: 44px;
+  font-size: 40px;
   font-weight: 700;
   width: 401px;
+  margin-bottom: 15px;
+}
+.landing-statement > div:nth-child(2) {
+  font-size: 18px;
+  width: 478px;
+}
+
+.landing-logo {
+  width: 420px;
+  height: 450px;
+  margin-top: 50px;
 }
