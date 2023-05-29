@@ -1,0 +1,28 @@
+.help-root {
+  height: 718px;
+  width: 80%;
+  background-color: #35a6bf;
+  color: white;
+  border-radius: 50%;
+  margin-left: -100px;
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.help-header {
+  font-size: 34px;
+  margin-bottom: 20px;
+}
+
+.help-body {
+  font-size: 20px;
+  width: 75%;
+  margin-bottom: 20px;
+}
+
+.help-button {
+  color: black;
+  height: 30px;
+  width: 100px;
+}
