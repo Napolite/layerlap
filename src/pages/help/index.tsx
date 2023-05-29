@@ -1,6 +1,7 @@
+import "./help.css";
 function Help() {
   return (
-    <div>
+    <div className="help-root">
       <div className="help-header">How Can We Help</div>
       <div className="help-body">
         We provide tailored end-to-end solutions leveraging blockchain
