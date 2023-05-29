@@ -1,4 +1,12 @@
 import "./contact.css";
+import {
+  phone,
+  email,
+  position,
+  twitterblack,
+  instagrabBlack,
+  discord,
+} from "../../assets";
 
 function Contact() {
   return (
@@ -14,22 +22,22 @@ function Contact() {
             Say something to start the livechat
           </div>
           <div className="contact-info">
-            <img />
-            <div></div>
+            <img src={phone} />
+            <div>+234 90030033090</div>
           </div>
           <div className="contact-info">
-            <img />
-            <div></div>
+            <img src={email} />
+            <div>layerlab@gmail.com</div>
           </div>
           <div className="contact-info">
-            <img />
-            <div></div>
+            <img src={position} />
+            <div> Nigeria</div>
           </div>
 
           <div className="contact-info-footer">
-            <img />
-            <img />
-            <img />
+            <img src={twitterblack} />
+            <img src={instagrabBlack} />
+            <img src={discord} />
           </div>
         </div>
         <div className="contact-form">
