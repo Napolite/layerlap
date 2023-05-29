@@ -1,7 +1,7 @@
 // import { useState } from 'react'
 import "./App.css";
 import { Navbar } from "./components";
-import { Landing, Services, Help } from "./pages";
+import { Landing, Services, Help, Contact } from "./pages";
 
 function App() {
   return (
@@ -10,6 +10,7 @@ function App() {
       <Landing />
       <Services />
       <Help />
+      <Contact />
     </>
   );
 }
