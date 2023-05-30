@@ -6,7 +6,6 @@ function Footer() {
     <div className="footer-root">
       <div className="footer-logo">
         <img src={logowhite} />
-        <div>LayerLab</div>
       </div>
       <div className="footer-note">
         We deliver professional software development services for businesses and

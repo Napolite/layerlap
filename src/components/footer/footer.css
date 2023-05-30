@@ -5,4 +5,26 @@
   color: white;
   font-family: MOntserrat;
   margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  place-items: center;
+  padding-bottom: 50px;
+}
+
+.footer-note {
+  width: 325px;
+  text-align: center;
+  font-size: 14px;
+}
+.footer-root > .footer-services {
+  display: flex;
+  width: 250px;
+  justify-content: space-between;
+}
+
+.footer-root > .footer-images {
+  display: flex;
+  width: 200px;
+  justify-content: space-between;
 }

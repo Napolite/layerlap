@@ -12,7 +12,7 @@ import fbwhite from "./images/fbwhite.png";
 import discord from "./images/discord.png";
 import instagram from "./images/instagram.png";
 import instagrabBlack from "./images/instagramblack.png";
-import logowhite from "./images/logowhite.png";
+import logowhite from "./images/Logowhite.png";
 import twitterwhite from "./images/twitterwhite.png";
 import twitterblack from "./images/twitterblack.png";
 import position from "./images/position.png";
