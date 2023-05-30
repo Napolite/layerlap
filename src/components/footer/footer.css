@@ -28,3 +28,8 @@
   width: 200px;
   justify-content: space-between;
 }
+
+.footer-root > .footer-services > img {
+  height: 19px;
+  width: 9px;
+}
