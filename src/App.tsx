@@ -1,6 +1,6 @@
 // import { useState } from 'react'
 import "./App.css";
-import { Navbar } from "./components";
+import { Footer, Navbar } from "./components";
 import { Landing, Services, Help, Contact } from "./pages";
 
 function App() {
@@ -11,6 +11,7 @@ function App() {
       <Services />
       <Help />
       <Contact />
+      <Footer />
     </>
   );
 }
