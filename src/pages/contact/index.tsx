@@ -42,12 +42,29 @@ function Contact() {
         </div>
         <div className="contact-form">
           <form>
-            <input type="text" name="First" id="" />
-            <input type="text" name="Last" id="" />
-            <input type="text" name="email" id="" />
-            <input type="text" name="company" id="" />
-            <input type="text" name="message" id="" />
+            <input
+              type="text"
+              name="First"
+              id="first"
+              placeholder="First Name"
+            />
+            <input type="text" name="Last" id="last" placeholder="Last Name" />
+            <input type="text" name="email" id="email" placeholder="Email" />
+            <input
+              type="text"
+              name="company"
+              id="company"
+              placeholder="Company name"
+            />
+            <input
+              type="text"
+              name="message"
+              id=""
+              placeholder="Your message"
+              className="form-exception"
+            />
           </form>
+          <button>Send Message</button>
         </div>
       </div>
     </div>
