@@ -12,6 +12,26 @@
 
 body {
   background-color: #e7e5e5;
+  overflow: overlay;
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-track:hover {
+  background: #b1afaf;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #35a6bf;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #47d4f3;
 }
 
 @media (prefers-color-scheme: light) {
